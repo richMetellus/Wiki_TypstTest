@@ -29,6 +29,8 @@
 = Introduction
 Scientific writing is a crucial part of the research process, allowing researchers to share their findings with the wider scientific community. However, the process of typesetting scientific documents can often be a frustrating and time-consuming affair, particularly when using outdated tools such as LaTeX. Despite being over 30 years old, it remains a popular choice for scientific writing due to its power and flexibility. However, it also comes with a steep learning curve, complex syntax, and long compile times, leading to frustration and despair for many researchers @netwok2020 @netwok2022.
 
+Although typst will wait for you to finish typing so the watch can start doing its thing. This cause the document preview to not be live. But it is still fast once the user stop typing.
+
 == Paper overview
 In this paper we introduce Typst, a new typesetting system designed to streamline the scientific writing process and provide researchers with a fast, efficient, and easy-to-use alternative to existing systems. Our goal is to shake up the status quo and offer researchers a better way to approach scientific writing.
 
@@ -85,3 +87,14 @@ The distances were calculated with @eq:gamma that we presented in @sec:methods.
 #lorem(240)
 
 #lorem(240)
+
+Added lorem 5 million: Changing just this top block take about 20 seconds
+
+#lorem(5000000)
+
+After adding lorem 5 million, it take about 4min 50s to render the lorem block.
+this block should just render the document fast.
+
+It still take about 20-30s to render this block.
+
+A start from scratch take 4 min 30 seconds
